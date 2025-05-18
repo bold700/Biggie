@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		35137E3F2DD8B8A7008A8FEB /* biggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = biggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BA533F2DD9382B0019EF4F /* Biggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		35137E412DD8B8A7008A8FEB /* biggie */ = {
+		35BA53412DD9382B0019EF4F /* Biggie */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = biggie;
+			path = Biggie;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35137E3C2DD8B8A7008A8FEB /* Frameworks */ = {
+		35BA533C2DD9382B0019EF4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35137E362DD8B8A7008A8FEB = {
+		35BA53362DD9382B0019EF4F = {
 			isa = PBXGroup;
 			children = (
-				35137E412DD8B8A7008A8FEB /* biggie */,
-				35137E402DD8B8A7008A8FEB /* Products */,
+				35BA53412DD9382B0019EF4F /* Biggie */,
+				35BA53402DD9382B0019EF4F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		35137E402DD8B8A7008A8FEB /* Products */ = {
+		35BA53402DD9382B0019EF4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35137E3F2DD8B8A7008A8FEB /* biggie.app */,
+				35BA533F2DD9382B0019EF4F /* Biggie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35137E3E2DD8B8A7008A8FEB /* biggie */ = {
+		35BA533E2DD9382B0019EF4F /* Biggie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35137E4A2DD8B8AA008A8FEB /* Build configuration list for PBXNativeTarget "biggie" */;
+			buildConfigurationList = 35BA534A2DD9382D0019EF4F /* Build configuration list for PBXNativeTarget "Biggie" */;
 			buildPhases = (
-				35137E3B2DD8B8A7008A8FEB /* Sources */,
-				35137E3C2DD8B8A7008A8FEB /* Frameworks */,
-				35137E3D2DD8B8A7008A8FEB /* Resources */,
+				35BA533B2DD9382B0019EF4F /* Sources */,
+				35BA533C2DD9382B0019EF4F /* Frameworks */,
+				35BA533D2DD9382B0019EF4F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				35137E412DD8B8A7008A8FEB /* biggie */,
+				35BA53412DD9382B0019EF4F /* Biggie */,
 			);
-			name = biggie;
+			name = Biggie;
 			packageProductDependencies = (
 			);
-			productName = biggie;
-			productReference = 35137E3F2DD8B8A7008A8FEB /* biggie.app */;
+			productName = Biggie;
+			productReference = 35BA533F2DD9382B0019EF4F /* Biggie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35137E372DD8B8A7008A8FEB /* Project object */ = {
+		35BA53372DD9382B0019EF4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					35137E3E2DD8B8A7008A8FEB = {
+					35BA533E2DD9382B0019EF4F = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 35137E3A2DD8B8A7008A8FEB /* Build configuration list for PBXProject "biggie" */;
+			buildConfigurationList = 35BA533A2DD9382B0019EF4F /* Build configuration list for PBXProject "Biggie" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 35137E362DD8B8A7008A8FEB;
+			mainGroup = 35BA53362DD9382B0019EF4F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 35137E402DD8B8A7008A8FEB /* Products */;
+			productRefGroup = 35BA53402DD9382B0019EF4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35137E3E2DD8B8A7008A8FEB /* biggie */,
+				35BA533E2DD9382B0019EF4F /* Biggie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35137E3D2DD8B8A7008A8FEB /* Resources */ = {
+		35BA533D2DD9382B0019EF4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35137E3B2DD8B8A7008A8FEB /* Sources */ = {
+		35BA533B2DD9382B0019EF4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		35137E482DD8B8AA008A8FEB /* Debug */ = {
+		35BA53482DD9382D0019EF4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		35137E492DD8B8AA008A8FEB /* Release */ = {
+		35BA53492DD9382D0019EF4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		35137E4B2DD8B8AA008A8FEB /* Debug */ = {
+		35BA534B2DD9382D0019EF4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -266,7 +266,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennytimmer.biggie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennytimmer.Biggie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -274,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		35137E4C2DD8B8AA008A8FEB /* Release */ = {
+		35BA534C2DD9382D0019EF4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kennytimmer.biggie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennytimmer.Biggie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35137E3A2DD8B8A7008A8FEB /* Build configuration list for PBXProject "biggie" */ = {
+		35BA533A2DD9382B0019EF4F /* Build configuration list for PBXProject "Biggie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35137E482DD8B8AA008A8FEB /* Debug */,
-				35137E492DD8B8AA008A8FEB /* Release */,
+				35BA53482DD9382D0019EF4F /* Debug */,
+				35BA53492DD9382D0019EF4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35137E4A2DD8B8AA008A8FEB /* Build configuration list for PBXNativeTarget "biggie" */ = {
+		35BA534A2DD9382D0019EF4F /* Build configuration list for PBXNativeTarget "Biggie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35137E4B2DD8B8AA008A8FEB /* Debug */,
-				35137E4C2DD8B8AA008A8FEB /* Release */,
+				35BA534B2DD9382D0019EF4F /* Debug */,
+				35BA534C2DD9382D0019EF4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35137E372DD8B8A7008A8FEB /* Project object */;
+	rootObject = 35BA53372DD9382B0019EF4F /* Project object */;
 }
