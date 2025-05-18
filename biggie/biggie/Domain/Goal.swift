@@ -17,11 +17,6 @@ struct Goal: Identifiable, Codable {
         Double(currentCompletions) / Double(requiredCompletions)
     }
     
-    var isOverdue: Bool {
-        guard let lastCompleted = lastCompletedAt else { return false }
-        return Calendar.current.dateComponents([.day], from: lastCompleted, to: Date()).day ?? 0 > 1
-    }
-    
     init(
         id: UUID = UUID(),
         title: String,
@@ -41,8 +36,8 @@ struct Goal: Identifiable, Codable {
     }
     
     static let examples = [
-        Goal(title: "Make my bed", reward: "Sticker", requiredCompletions: 1),
-        Goal(title: "Brush my teeth", reward: "Playtime", requiredCompletions: 2),
-        Goal(title: "Help mom", reward: "1 coin", requiredCompletions: 3)
+        Goal(title: "Maak mijn bed op", reward: "Sticker", requiredCompletions: 1),
+        Goal(title: "Tanden poetsen", reward: "Speeltijd", requiredCompletions: 2),
+        Goal(title: "Help mama", reward: "1 munt", requiredCompletions: 3)
     ]
 } 

@@ -1,5 +1,4 @@
 import Foundation
-import SwiftUI
 
 struct Profile: Identifiable, Codable {
     let id: UUID
@@ -8,10 +7,6 @@ struct Profile: Identifiable, Codable {
     var avatarColor: String
     var coins: Int
     var createdAt: Date
-    
-    var avatarColorValue: Color {
-        Color(hex: avatarColor) ?? .blue
-    }
     
     init(
         id: UUID = UUID(),
